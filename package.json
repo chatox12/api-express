@@ -1,0 +1,24 @@
+{
+  "name": "apiexample",
+  "version": "1.0.0",
+  "description": "Example api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.2.15",
+    "uninstall": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
